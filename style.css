@@ -43,6 +43,7 @@ body {
 .forUpside {
   display: inline-block;
   margin-top: 1px;
+  /* new think added */
 }
 .navigation .nav-brand {
   font-weight: bold;
