@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Lato:wght@300;400;900&amp;family=Rubik:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Is|Triangle|Page.</title>
+    <link rel="stylesheet" href="isTriangle.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navigation">
+      <!-- <div class="nav-brand forUpside">What is Triangle?</div> -->
+      <div class="nav-brand forUpside">
+        <a href="index.html">What is Triangle?</a>
+      </div>
+      <ul>
+        <li>
+          <a class="link-active" href="isTriangle.html">Is Triangle?</a>
+        </li>
+        <li>
+          <a href="#">Quiz</a>
+        </li>
+        <li>
+          <a href="#">Hypotenuse</a>
+        </li>
+        <li>
+          <a href="#">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="container">
+      <h2 class="heading-2">Angles of Triangles</h2>
+      <!-- 1 -->
+      <label for="angle-1">Angles 1 👇</label>
+      <input
+        id="angle-1"
+        type="number"
+        placeholder="Enter angle 1 (in degree)"
+      />
+      <!-- 2 -->
+      <label for="angle-2">Angles 2 👇</label>
+      <input
+        id="angle-2"
+        type="number"
+        placeholder="Enter angle 2 (in degree)"
+      />
+      <!-- 3 -->
+      <label for="angle-3">Angles 3 👇</label>
+      <input
+        id="angle-3"
+        type="number"
+        placeholder="Enter angle 3 (in degree)"
+      />
+      <div class="btn-container">
+        <button class="btn" id="show-button">Is Triangle</button>
+
+        <button class="btn" id="clear">Clear</button>
+      </div>
+      <div class="gettingAns">
+        <p class="output-text">Your Answer will present in the box.</p>
+      </div>
+      <div class="impoortant-note">
+        <strong>Notes👇</strong>
+        <p class="ImpNotes">
+          The sum of all angles of the triangle is equal to 180 &deg;
+        </p>
+      </div>
+    </div>
+    <script src="isTriangle.js"></script>
+  </body>
+</html>
