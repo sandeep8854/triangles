@@ -5,10 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="areaOfTriangle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Lato:wght@300;400;900&amp;family=Rubik:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
     <title>Area|Of|Triangle</title>
   </head>
   <body>
-    <h1 class="heading">We will come back.</h1>
+    <!-- start navbar -->
+    <nav class="navigation">
+      <!-- <div class="nav-brand forUpside">What is Triangle?</div> -->
+      <div class="nav-brand forUpside">
+        <a href="index.html">What is Triangle?</a>
+      </div>
+      <ul>
+        <li>
+          <a class="link-active" href="isTriangle.html">Is Triangle?</a>
+        </li>
+        <li>
+          <a href="quiz.html">Quiz</a>
+        </li>
+        <li>
+          <a href="hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li>
+          <a href="areaOfTriangle.html">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="container">
+      <h2 class="heading-2">Calculate Area Of Triangle</h2>
+      <span class="pythagoras">Pythagoras of Samos</span>
+      <!-- 1 -->
+      <label for="base">Enter Base Value 👇</label>
+      <input id="base" type="number" placeholder="Enter Base Value (b)" />
+      <!-- 2 -->
+      <label for="height">Enter Height Value 👇</label>
+      <input id="height" type="number" placeholder="Enter Height Value (h)" />
+
+      <div class="btn-container">
+        <button class="btn btn__1" id="show-button">Get Area</button>
+
+        <button class="btn btn__2" id="clear">Clear</button>
+      </div>
+      <div class="gettingAns">
+        <p class="output-text">Answer will present in the box.</p>
+      </div>
+      <div class="impoortant-note">
+        <strong>Notes👇</strong>
+        <h3 class="heading-3">Formula: Area of Triangle</h3>
+        <p class="formula">1/2(base &#215; height)</p>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <h2>Lets &lt;/code-connect socially&gt;✔️</h2>
+      <ul>
+        <li>
+          <a
+            style="color: #00acee"
+            href="https://twitter.com/sandeepdevps"
+            target="_blank"
+            >Twitter</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: #e1306c"
+            href="https://www.instagram.com/sandeepnaresh9721/"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: #333"
+            href="https://github.com/sandeep8854"
+            target="_blank"
+            >Github</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: #fca326"
+            href="https://gitlab.com/sandeepprajapati8854"
+            target="_blank"
+            >GitLab</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: #0a66c2"
+            href="https://www.linkedin.com/in/sandeep-prajapati-099731269/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: green"
+            href="https://www.hackerrank.com/sandeepstructure?hr_r=1"
+            target="_blank"
+            >HackerRank</a
+          >
+        </li>
+        <li>
+          <a
+            style="color: black"
+            href="https://leetcode.com/sandeepstructure/"
+            target="_blank"
+            >Leetcode</a
+          >
+        </li>
+      </ul>
+    </footer>
+
     <script src="areaOfTriangle.js"></script>
   </body>
 </html>
